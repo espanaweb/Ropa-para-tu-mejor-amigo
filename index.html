@@ -1,0 +1,116 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ropa para tu mejor amigo</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar">
+            <img src="ropa para tu mejor amigo (1).png" alt="Logo de la empresa" class="logo"> 
+            <ul class="nav-links">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+
+    <h1>ROPA PARA TU MEJOR AMIGO</h1>
+    <p>luce lo último de la moda en tu mejor amigo de 4 patas </p>
+    <p>ofrecer ropa de calidad y a precios accesibles para mascotas de razas
+        pequeñas, combinando funcionalidad y estilo.
+    </p>
+    <section class="carrusel">
+        <div class="carrusel-contenedor">
+        <img src="imagen 10.jpg" class="slide activa" alt="Imagen 1">
+        <img src="imagen 1.jpg" class="slide" alt="Imagen 2">
+        <img src="imagen 4.jpg" class="slide" alt="Imagen 3">
+        <img src="imagen 5.jpg" class="slide" alt="Imagen 4">
+        <img src="imagen 8.jpg" class="slide" alt="Imagen 5">
+        </div>
+        </section>
+       <script>
+        let slideIndex = 0;
+        const slides = document.querySelectorAll(".slide");
+        function showSlides() {
+        slides.forEach(slide => slide.classList.remove("active"));
+        slideIndex = (slideIndex + 1) % slides.length;
+        slides[slideIndex].classList.add("active");
+        }
+        setInterval(showSlides, 3000);
+        </script
+
+setInterval(showSlides, 3000);     </script>
+<video src="ropa para tu mejor amigo.mp4" controls autoplay></video>
+
+<h2>proceso de produccion</h2>
+<p>Investigacion y diseño, monitorear redes sociales y lo que este en
+    tendencia para identificar nuevas modas
+</p>
+<p>adquisicion de materia prima. Buscaremos adquirir suaves, ligeras, resistentes
+    y adecuadas para mascotas de razas pequeñas 
+</p>
+
+<section class="cards-section">
+    <div class="card">
+        <img src="imagen 4.jpg" alt="Producto 1">
+        <h3>ropa exclusiva </h3>
+        <div class="card-description">
+            <p>ropa comoda para tirar flow.</p>
+        </div>
+    </div>
+    <div class="card">
+        <img src="imagen 8.jpg" alt="Producto 2">
+        <h3>ropa personalizada</h3>
+        <div class="card-description">
+            <p>viste a tu mascota con ropa que refleje 
+                su personalidad unica .</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="imagen 9.jpg" alt="Producto 3">
+        <h3>ropa elegante</h3>
+        <div class="card-description">
+            <p>viste a tu amigo para momentos importantes o unicos .</p>
+            
+            <h3>Ofrecemos</h3>
+            <p>Ofrecerropa de calidad, estilo y comodidad a
+                precios accesibles para mascotas de razas
+                </p>
+                <p>pequeñas, combinando funcionalidad, diseños
+                    estandarizados y personalizados. Ofreciendo
+                    confort, bienestar y satisfacción a los dueños
+                    y a sus mascotas en Tizayuca Hidalgo.</p>
+        </div>
+    </div>
+</section>
+
+<div class="formulario">
+    <form action="">
+        <h2 class="tituloformulario">contacto</h2>
+        <label for="nombre">Nombre</label>
+        <input type="text" placeholder="Nombre" size="15" maxlength="15" name="nombre" id="nombre" required>
+        <label for="telefono">Telefono</label>
+        <input type="text" placeholder="Telefono" size="15" maxlength="15" name="telefono" id="telefono" required>
+        <label for="correo">Correo</label>
+        <input type="text" placeholder="Correo electronico" size="15"  name="correo" id="correo" required>
+        <label for="mensaje">mensaje</label>
+        <textarea name="mensaje" id="mensaje" placeholder="escriba su mensaje aqui" required></textarea>
+        <input type="button" value="enviar mensaje" id="boton">
+</body >
+</html >
+
+
+</body>
+</html>
+
+        </header>
+
+    
+
+
+
+
